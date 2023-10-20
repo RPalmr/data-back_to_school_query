@@ -1,8 +1,8 @@
 # pylint:disable=C0111,C0103
 
-import sqlite3
-conn = sqlite3.connect('data/school.sqlite')
-db = conn.cursor()
+# import sqlite3
+# conn = sqlite3.connect('data/school.sqlite')
+# db = conn.cursor()
 
 
 def students_from_city(db_cursor, city):
