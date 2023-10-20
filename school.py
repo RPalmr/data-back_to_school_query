@@ -11,4 +11,4 @@ def students_from_city(db_cursor, city):
     db_cursor.execute(query, (city,))
     return db_cursor.fetchall()
 
-print(students_from_city(db, 'Paris'))
+# print(students_from_city(db, 'Paris'))
